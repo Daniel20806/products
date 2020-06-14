@@ -7,6 +7,8 @@ while True:
 	if price == 'q':
 		break 
 	products.append([name, price])
-print(products)
-print(products[0][1])
+print(products)	
+for product in products:
+	print(product[0], '的價格是', product[1])
+
 
